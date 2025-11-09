@@ -1,20 +1,12 @@
-cd app
+To run this project, clone this repo and follow these commands:
 
-
-
-
-npm install
-
-npm run start 
-if dont work try this in terminal or wsl or you use other terminal linux or ubentu wsl: 'set NODE_OPTIONS=--openssl-legacy-provider'
-
-
-
-another solution
-
-
-
-npm start
+cd into the app folder
+Run npm install at the root of your directory
+Set up your .env file in the /app directory as follows
+REACT_APP_CANDY_MACHINE_ID=<YOUR CANDY MACHINE ID GOES HERE>
+REACT_APP_SOLANA_NETWORK=devnet
+REACT_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
+Run npm run start to start the project
 
 
 
